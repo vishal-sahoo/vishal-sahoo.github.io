@@ -2,9 +2,22 @@ h1 {
   text-align: center;
   text-decoration: underline;
 }
-.center {
+
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
 }
