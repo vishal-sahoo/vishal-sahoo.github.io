@@ -48,3 +48,8 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: white;
 }
+
+.intropic {
+  margin-left: 100px
+  margin-right: 100px
+}
