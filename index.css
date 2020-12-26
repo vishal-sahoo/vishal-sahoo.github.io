@@ -51,7 +51,7 @@ a:hover, a:active {
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  .pic {
+  .center1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -62,7 +62,7 @@ a:hover, a:active {
 
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .pic {
+  .center1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
