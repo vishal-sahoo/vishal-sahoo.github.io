@@ -8,11 +8,8 @@ h1 {
 }
 
 .photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  height: 200;
+  width: 300;
+  height: 300;
 }
 
 .container {
@@ -43,4 +40,25 @@ a:hover, a:active {
 .intropic {
   margin-left: 10%;
   margin-right: 9%;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 266.66;
+  height: 200;
+}
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 133.33;
+  height: 100;
+  }
 }
