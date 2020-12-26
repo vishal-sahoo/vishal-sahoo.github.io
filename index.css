@@ -8,6 +8,7 @@ h1 {
 }
 
 .pic {
+  src: profile1.png;
   width: 350;
   height: 262.5;
   text-align: right;
