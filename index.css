@@ -56,14 +56,3 @@ a:hover, a:active {
     margin-right: auto;
   }
 }
-
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .pic {
-  display: none;
-  }
-  .info {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
