@@ -46,7 +46,7 @@ a:hover, a:active {
   display: block;
 }
 
-@media (max-width:1700px) {
+@media (max-width:1400px) {
   /* For tablets: */
   .pic {
     display: none;
