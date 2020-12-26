@@ -38,6 +38,7 @@ a:hover, a:active {
 }
 
 .info {
+  display: block;
   margin-left: 10%;
   margin-right: auto;
 }
