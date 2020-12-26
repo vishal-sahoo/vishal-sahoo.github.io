@@ -46,12 +46,20 @@ a:hover, a:active {
   display: block;
 }
 
-@media (max-width:1200px) {
+@media (max-width:1700px) {
   /* For tablets: */
   .pic {
     display: none;
   }
+}
+
+@media (max-width:1300px) {
+  /* For tablets: */
   .info {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intropic {
     margin-left: auto;
     margin-right: auto;
   }
