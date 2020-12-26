@@ -38,17 +38,24 @@ a:hover, a:active {
 }
 
 .info {
-  margin-left: auto;
+  margin-left: 10%;
   margin-right: auto;
 }
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
+  .info {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .info {
+  display: none;
   margin-left: auto;
+  margin-right: auto
   }
 }
